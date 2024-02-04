@@ -1,7 +1,7 @@
 
 | CS-665       | Software Design & Patterns |
 |--------------|----------------------------|
-| Name         | FIRST_NAME LAST_NAME       |
+| Name         | Shohaib Mallick            |
 | Date         | MM/DD/YYYY                 |
 | Course       | Fall / Spring / Summer     |
 | Assignment # |                            |
