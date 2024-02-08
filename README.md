@@ -19,7 +19,6 @@ For each assignment, please answer the following:
 
 - This project is highly flexible, new objects can easily be added to the application. For instance adding a new condiment to the Condiments class would make the condiments to be directlt availble to be added in a coffee or a tea.  
 - Its really easy to understand the code the flow of the application is very simple, where we have the billing method where we can add tea or coffee, for which we have the tea and coffee classes, to add condiments to tea or coffee we have the condiments class.
-- Describe how you have avoided duplicated code and why it is important.
 - By making a separate class for condiments, i was able to add condiments to both tea and coffee, rather than having the code in tea or coffee class.
 - I chose to go ahead with the strategy pattern, as it's the easiest and best to use as we are able to decouple the classes reducing the dependency of classes on each other.
 
