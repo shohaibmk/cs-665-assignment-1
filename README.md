@@ -2,9 +2,9 @@
 | CS-665       | Software Design & Patterns |
 |--------------|----------------------------|
 | Name         | Shohaib Mallick            |
-| Date         | MM/DD/YYYY                 |
-| Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+| Date         | 02/08/2024                 |
+| Course       | Spring 2024                |
+| Assignment # | 1                          |
 
 # Assignment Overview
 Please add a paragraph or two overviewing the objectives of the assignment.
@@ -17,13 +17,11 @@ https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
 
 For each assignment, please answer the following:
 
-- Explain the level of flexibility in your implementation, including how new object types can
-be easily added or removed in the future.
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
-easy for others to read and maintain.
+- This project is highly flexible, new objects can easily be added to the application. For instance adding a new condiment to the Condiments class would make the condiments to be directlt availble to be added in a coffee or a tea.  
+- Its really easy to understand the code the flow of the application is very simple, where we have the billing method where we can add tea or coffee, for which we have the tea and coffee classes, to add condiments to tea or coffee we have the condiments class.
 - Describe how you have avoided duplicated code and why it is important.
-- If applicable, mention any design patterns you have used and explain why they were
-chosen.
+- By making a separate class for condiments, i was able to add condiments to both tea and coffee, rather than having the code in tea or coffee class.
+- I chose to go ahead with the strategy pattern, as it's the easiest and best to use as we are able to decouple the classes reducing the dependency of classes on each other.
 
 
 # Maven Commands

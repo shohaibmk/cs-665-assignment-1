@@ -42,6 +42,7 @@ public class Billing {
                     break;
                 case 6:
                     exit = true;
+                    break;
                 default:
                     System.out.println("Invalid Choice !!!\n\n");
             }
@@ -57,6 +58,7 @@ public class Billing {
 
         try {
             //Code to brew coffee
+            System.out.println("Brewing Drinks for you !!!5\nplease be patient");
         } catch (Exception e) {
             e.printStackTrace();
             return false;
